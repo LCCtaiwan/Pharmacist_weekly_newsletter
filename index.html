@@ -16,9 +16,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Pin
 .card-list{display:flex;flex-direction:column;gap:10px;margin-bottom:32px}
 .issue-card{background:#fff;border-radius:12px;padding:16px 20px;box-shadow:0 1px 4px rgba(0,0,0,.07);display:flex;align-items:center;justify-content:space-between;text-decoration:none;color:inherit;transition:box-shadow .15s;border-left:4px solid #0E7490}
 .issue-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.12)}
+.issue-card.new{border-left-color:#059669}
 .issue-info h3{font-size:.95rem;font-weight:600;color:#0F172A;margin-bottom:3px}
 .issue-info span{font-size:.78rem;color:#64748B}
 .badge{display:inline-block;background:#E0F2FE;color:#0369A1;font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:20px;margin-right:6px}
+.badge.new{background:#D1FAE5;color:#065F46}
 .arrow{font-size:1.1rem;color:#94A3B8}
 .footer{text-align:center;color:#94A3B8;font-size:.75rem;padding-top:16px;border-top:1px solid #E2E8F0}
 </style>
@@ -33,6 +35,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Pin
 
   <div class="section-title">2026 年度週報</div>
   <div class="card-list">
+    <a class="issue-card new" href="2026-week18.html">
+      <div class="issue-info">
+        <h3>第 18 週 <span class="badge new">NEW</span></h3>
+        <span>2026/04/21 – 04/27</span>
+      </div>
+      <span class="arrow">→</span>
+    </a>
     <a class="issue-card" href="2026-week17.html">
       <div class="issue-info">
         <h3>第 17 週</h3>
