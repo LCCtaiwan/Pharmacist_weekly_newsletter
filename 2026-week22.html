@@ -5,40 +5,17 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>【藥師文獻週報】2026 第22週</title>
 <style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:#F1F5F9;color:#1E293B;font-size:15px;line-height:1.75}
-.wrap{max-width:780px;margin:0 auto;padding:16px}
-.hero{background:linear-gradient(135deg,#0F172A 0%,#1E3A5F 60%,#0E7490 100%);color:#fff;padding:32px 24px 28px;border-radius:16px;text-align:center;margin-bottom:20px}
-.hero-icon{font-size:40px;margin-bottom:10px}
-.hero h1{font-size:1.45rem;font-weight:700;letter-spacing:.5px;margin-bottom:6px}
-.hero .sub{opacity:.75;font-size:.9rem;margin-bottom:14px}
-.hero .ts{opacity:.55;font-size:.78rem}
-.stats{background:#fff;border-radius:12px;padding:16px 12px;margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.07)}
-.stat{text-align:center;min-width:72px}
-.snum{font-size:1.6rem;font-weight:700;line-height:1}
-.slbl{font-size:.7rem;color:#64748B;margin-top:2px}
-.st .snum{color:#0F172A}.sr .snum{color:#1D4ED8}.sm .snum{color:#6D28D9}.ss .snum{color:#047857}.so .snum{color:#B45309}
-.sdiv{width:1px;background:#E2E8F0;align-self:stretch;margin:4px 0}
-.journal{margin-bottom:28px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.07)}
-.journal-hdr{padding:14px 20px}
-.journal-hdr h2{font-size:1.1rem;font-weight:700}
-.type-sec{padding:0 16px 8px}
-.type-hdr{font-size:.72rem;font-weight:600;color:#94A3B8;text-transform:uppercase;letter-spacing:.8px;padding:12px 0 6px;border-bottom:1px solid #F1F5F9;margin-bottom:10px}
-.card{border-radius:8px;padding:14px 16px;margin-bottom:10px}
-.badge{display:inline-block;color:#fff;font-size:.68rem;font-weight:600;padding:2px 9px;border-radius:20px;margin-bottom:8px}
-.card-title{font-size:.92rem;font-weight:600;color:#0F172A;line-height:1.5;margin-bottom:6px}
-.card-meta{display:flex;flex-wrap:wrap;gap:10px;font-size:.78rem;color:#64748B}
-.doi-link{color:#2563EB;text-decoration:none;font-weight:500}
-.doi-link:hover{text-decoration:underline}
-.card-body{border-top:1px solid rgba(0,0,0,.06);margin-top:10px;padding-top:10px}
-.card-body p{font-size:.85rem;color:#334155;margin-bottom:7px;line-height:1.65}
-.card-body p:last-child{margin-bottom:0}
-.lbl{font-weight:600;color:#475569;margin-right:5px;font-size:.8rem}
-.lbl::after{content:"｜";color:#CBD5E1;margin-right:2px}
-.concl{background:#F0FDF4;border-left:3px solid #10B981;border-radius:0 6px 6px 0;padding:7px 10px;margin-top:2px}
-.concl .lbl{color:#065F46}
-.footer{text-align:center;padding:24px 16px;color:#94A3B8;font-size:.78rem;border-top:1px solid #E2E8F0;margin-top:8px}
-.footer strong{color:#475569}
-@media(max-width:480px){.hero h1{font-size:1.15rem}.card-title{font-size:.88rem}.snum{font-size:1.3rem}}</style>
+:root{color-scheme:light}
+body{font-family:"Noto Sans TC","Noto Sans CJK TC","Noto Sans",-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;background:#F5F7FA;color:#182230;font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.wrap{max-width:860px;margin:0 auto;padding:20px}
+.hero{background:#12324A;color:#fff;padding:30px 28px 26px;border-radius:8px;text-align:left;margin-bottom:18px}
+.hero-icon{font-size:34px;margin-bottom:8px}.hero h1{font-size:1.55rem;font-weight:750;line-height:1.35;margin-bottom:8px}.hero .sub{opacity:.82;font-size:.95rem;margin-bottom:12px}.hero .ts{opacity:.7;font-size:.82rem}
+.stats{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:14px;margin-bottom:24px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;box-shadow:0 1px 3px rgba(15,23,42,.06)}
+.stat{text-align:center;min-width:0;padding:4px 8px}.snum{font-size:1.55rem;font-weight:750;line-height:1.05}.slbl{font-size:.76rem;color:#667085;margin-top:4px;line-height:1.25}.st .snum{color:#0F172A}.sr .snum{color:#1D4ED8}.sm .snum{color:#6D28D9}.ss .snum{color:#047857}.so .snum{color:#B45309}.sdiv{display:none}
+.journal{margin-bottom:28px;background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(15,23,42,.06)}.journal-hdr{padding:15px 22px}.journal-hdr h2{font-size:1.18rem;font-weight:750;line-height:1.3}.type-sec{padding:2px 18px 12px}.type-hdr{font-size:.75rem;font-weight:700;color:#667085;text-transform:uppercase;padding:14px 0 8px;border-bottom:1px solid #ECEFF3;margin-bottom:12px}
+.card{border-radius:8px;padding:16px 18px;margin-bottom:12px}.badge{display:inline-block;color:#fff;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px;margin-bottom:10px;line-height:1.35}.card-title{font-size:1.02rem;font-weight:720;color:#101828;line-height:1.52;margin-bottom:8px}.card-meta{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:.84rem;color:#667085;line-height:1.45}.doi-link{color:#1D4ED8;text-decoration:none;font-weight:650}.doi-link:hover{text-decoration:underline}
+.card-body{border-top:1px solid rgba(16,24,40,.08);margin-top:13px;padding-top:13px}.card-body p{font-family:"Noto Sans TC","Noto Sans CJK TC","Noto Sans",-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;font-size:1rem;font-weight:500;color:#1F2937;margin-bottom:12px;line-height:1.86}.card-body p:last-child{margin-bottom:0}.lbl{display:inline;font-weight:750;color:#475467;margin-right:4px;font-size:.9rem}.lbl::after{content:"｜";color:#98A2B3;margin-right:2px}.concl{background:#F6FEF9;border-left:3px solid #12B76A;border-radius:0 6px 6px 0;padding:10px 12px;margin-top:2px;color:#1D2939}.concl .lbl{color:#067647}
+.footer{text-align:center;padding:26px 16px;color:#667085;font-size:.86rem;border-top:1px solid #E5E7EB;margin-top:8px}.footer strong{color:#344054}@media(max-width:640px){.wrap{padding:12px}.hero{padding:24px 18px 22px}.hero h1{font-size:1.25rem}.stats{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:12px}.card{padding:15px 14px}.card-title{font-size:1rem}.card-body p{font-size:.98rem;line-height:1.84}.journal-hdr{padding:14px 16px}.type-sec{padding-left:12px;padding-right:12px}.snum{font-size:1.38rem}}</style>
 </head>
 <body>
 <div class="wrap">
@@ -46,181 +23,264 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Pin
   <div class="hero-icon">💊</div>
   <h1>【藥師文獻週報】2026 第22週</h1>
   <div class="sub">NEJM · Lancet · JAMA · BMJ 精選</div>
-  <div class="ts">產製時間：2026/05/28 10:43</div>
+  <div class="ts">產製時間：2026/06/30 17:11</div>
 </div>
 <div class="stats">
-  <div class="stat st"><div class="snum">8</div><div class="slbl">本週收錄</div></div>
+  <div class="stat st"><div class="snum">19</div><div class="slbl">本週收錄</div></div>
   <div class="sdiv"></div>
-  <div class="stat sr"><div class="snum">7</div><div class="slbl">RCT</div></div>
+  <div class="stat sr"><div class="snum">9</div><div class="slbl">RCT</div></div>
   <div class="stat sm"><div class="snum">1</div><div class="slbl">Meta-analysis</div></div>
   <div class="stat ss"><div class="snum">0</div><div class="slbl">系統性回顧</div></div>
-  <div class="stat so"><div class="snum">0</div><div class="slbl">原著論文</div></div>
+  <div class="stat so"><div class="snum">9</div><div class="slbl">原著論文</div></div>
+  <div class="sdiv"></div>
+  <div class="stat so"><div class="snum">4</div><div class="slbl">FDA</div></div>
 </div>
 
 <section class="journal">
   <div class="journal-hdr" style="border-left:6px solid #991B1B;background:#FEF2F2;">
     <h2 style="color:#991B1B;">NEJM</h2>
   </div>
-  <div class="type-sec">
-    <div class="type-hdr">RCT</div>
-
+<div class="type-sec">
+  <div class="type-hdr">RCT</div>
+  
 <div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
   <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Phase 3 Trials of Inhaled Treprostinil for Idiopathic Pulmonary Fibrosis</h3>
+  <h3 class="card-title">Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B Virus Infection</h3>
   <div class="card-meta">
-    <span>✍ Nathan et al.</span>
-    <a href="https://doi.org/10.1056/NEJMoa2501488" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>特發性肺纖維化（IPF）是一種進行性、不可逆的肺間質疾病，現有抗纖維化藥物（nintedanib、pirfenidone）僅能減緩肺功能下降，尚未有針對肺血管病理機轉的吸入型藥物獲批。吸入型 treprostinil 在臨床前研究中顯示具潛在的抗纖維化作用，促成 TETON-1 第三期試驗的設計。</p>
-    <p><span class="lbl">方法</span>TETON-1 為雙盲安慰劑對照 RCT，共 598 名 IPF 患者隨機分配接受吸入型 treprostinil（每日 4 次，每次 12 口）或安慰劑，主要終點為第 52 週用力肺活量（FVC）的變化量。</p>
-    <p><span class="lbl">結果</span>第 52 週 FVC 中位數變化：treprostinil 組 −49.9 mL（95% CI −79.2 至 −19.5），安慰劑組 −136.4 mL（95% CI −172.5 至 −104.0）；臨床惡化事件發生率分別為 27.2% 對 39.0%，treprostinil 組顯著較低。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師應知曉吸入型 treprostinil 可延緩 IPF 肺功能下降、降低臨床惡化風險，開具吸入型前列環素類藥物時需評估患者的吸入技術與耐受性，並留意氣道刺激等不良反應。</p>
-  </div>
+    <span>✍ Hou et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2515131" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Treatment with bepirovirsen, an antisense oligonucleotide targeting hepatitis B virus (HBV) transcripts, has the potential to result in a functional cure, defined by at least 24 weeks of a sustained HBV DNA level below the lower limit of quantification (LLOQ) and hepatitis B surface antigen (HBsAg) loss after fixed-duration therapy.</p><p><span class="lbl">方法</span>研究方法：In two replicate, double-blind trials (B-Well 1 and B-Well 2), we randomly assigned adults with noncirrhotic chronic HBV infection in a 2:1 ratio to receive subcutaneous bepirovirsen (at a weekly dose of 300 mg) or placebo for 24 weeks. All the patients were receiving stable nucleoside or nucleotide analogue (NA) therapy and had an HBsAg level of more than 100 to 3000 IU per milliliter. Eligible patients discontinued NA...</p><p><span class="lbl">結果</span>主要結果：The percentage of patients with a functional cure at week 72 was significantly higher with bepirovirsen than with placebo both in the B-Well 1 trial (in 127 of 650 patients [20%] vs. none of 328 patients) and in the B-Well 2 trial (in 106 of 570 patients [19%] vs. none of 286 patients). In a pooled analysis at 72 weeks, adverse events were reported in 91% of the patients in the bepirovirsen groups and in 73% of those in the...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：In two phase 3 trials involving patients with chronic HBV infection, a functional cure after the discontinuation of NA therapy was reported in significantly more patients treated with bepirovirsen than in those who received placebo. (Funded by GSK; ClinicalTrials.gov numbers, NCT05630807 and NCT05630820.).</p></div>
 </div>
-
 <div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
   <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Prehospital Resuscitation with Type O Whole Blood for Trauma and Hemorrhage</h3>
+  <h3 class="card-title">Decompression with or without Duraplasty for Chiari I and Syringomyelia</h3>
   <div class="card-meta">
-    <span>✍ Sperry et al.</span>
-    <a href="https://doi.org/10.1056/NEJMoa2602167" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>創傷性大出血是可預防性死亡的主因之一。O 型全血（type O whole blood）在院外輸血方面受到關注，理論上可同時提供紅血球、血漿與血小板，但與成分輸血（component therapy）的臨床效益比較尚不明確，促成 TOWAR 試驗的進行。</p>
-    <p><span class="lbl">方法</span>TOWAR 為多中心 RCT，2022 年 5 月至 2025 年 6 月招募 1,020 名由直升機運送的嚴重出血創傷患者，以 2:1 比例隨機分派接受 O 型全血或標準成分輸血，主要終點為 30 天全因死亡率。</p>
-    <p><span class="lbl">結果</span>全血組與成分輸血組的 30 天死亡率均約為 20–25%，兩組間無統計顯著差異；儲存年齡次研究（1–14 天 vs 15–21 天全血）亦未見差異（adjusted OR 0.99，95% CI 0.74–1.32）。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師在參與血庫管理或院前輸血規範制定時應知悉，O 型全血與成分輸血在降低院前創傷死亡率方面療效相當，機構可依血品供應狀況彈性選擇輸血策略。</p>
-  </div>
+    <span>✍ Limbrick et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2402821" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：In children with Chiari type I malformation and syringomyelia, neurosurgical posterior fossa decompression (PFD) provides clinical improvement, but whether duraplasty (incising the dura and placing a dural graft) improves outcomes is unclear.</p><p><span class="lbl">方法</span>研究方法：We conducted a multicenter, cluster-randomized, controlled trial of PFD with duraplasty (PFD-D) as compared with PFD alone. Persons 21 years of age or younger with cerebellar tonsillar ectopia of at least 5 mm and a maximum syrinx diameter of 3.0 to 9.9 mm were enrolled at 38 centers. Centers were cluster-randomized: all the participants within each center underwent the same intervention. The primary outcome was surgical...</p><p><span class="lbl">結果</span>主要結果：A total of 162 participants were included in the trial, of whom 78 were assigned to undergo PFD-D and 84 to undergo PFD alone. The percentage of participants with complications within 6 months was 14% with PFD-D and 6% with PFD (adjusted odds ratio, 2.59; 95% confidence interval [CI], 0.86 to 7.84; P = 0.11). At 24 months, the percentage of participants with clinical improvement was 58% with PFD-D and 46% with PFD; the mean...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：The percentage of participants with surgical complications did not differ significantly between those who underwent PFD-D and and those who underwent PFD alone. Larger trials are needed to determine the relative benefits and risks of these two procedures. (Funded by the Patient-Centered Outcomes Research Institute and others; ClinicalTrials.gov number...</p></div>
 </div>
-
 <div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
   <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Azithromycin for Preschoolers with Wheezing in the Emergency Department</h3>
+  <h3 class="card-title">Zanidatamab with and without Tislelizumab in HER2-Positive Gastroesophageal Cancer</h3>
   <div class="card-meta">
-    <span>✍ Denninghoff et al.</span>
-    <a href="https://doi.org/10.1056/NEJMoa2516505" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>學齡前兒童急性喘鳴（wheezing）是急診最常見的就診原因之一，臨床上常合併使用抗生素（包含 azithromycin），但其療效尚欠缺高品質 RCT 數據；部分臨床指引已明確不建議常規使用抗生素。</p>
-    <p><span class="lbl">方法</span>本試驗在 8 個兒科急診中心招募 840 名 18–59 個月、中重度急性喘鳴兒童，隨機分派接受 azithromycin 12 mg/kg/天（×5 天）或安慰劑，主要終點為 Asthma Flare-up Diary for Young Children（ADYC）5 天總分。</p>
-    <p><span class="lbl">結果</span>azithromycin 組與安慰劑組的 ADYC 分數無顯著差異（細菌陽性族群：9.59 vs 9.72；細菌陰性族群：9.30 vs 9.10），住院時間、急診再訪率等次要終點亦無差別。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師執行兒科處方審核時，應主動識別並提示臨床醫師：azithromycin 對學齡前急性喘鳴無效，不應列為常規抗生素選項，以減少抗生素不合理使用。</p>
-  </div>
+    <span>✍ Shitara et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2517729" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Zanidatamab, a dual human epidermal growth factor receptor 2 (HER2)-targeted bispecific antibody, plus chemotherapy both with and without tislelizumab (anti-programmed death 1), showed encouraging efficacy and safety as first-line therapy in phase 2 studies involving patients with HER2-positive gastroesophageal adenocarcinoma.</p><p><span class="lbl">方法</span>研究方法：In an open-label, phase 3 trial, we randomly assigned, in a 1:1:1 ratio, patients with previously untreated, centrally confirmed HER2-positive advanced gastroesophageal adenocarcinoma to receive zanidatamab and tislelizumab plus chemotherapy, zanidatamab plus chemotherapy, or trastuzumab plus chemotherapy. The two primary end points were progression-free survival and overall survival.</p><p><span class="lbl">結果</span>主要結果：At a median follow-up of 25.9 months, progression-free survival was longer with zanidatamab-tislelizumab-chemotherapy (median among 302 patients, 12.4 months) and zanidatamab-chemotherapy (median among 304 patients, 12.4 months) than with trastuzumab-chemotherapy (median among 308 patients, 8.1 months) (hazard ratio for progression or death with zanidatamab-tislelizumab-chemotherapy, 0.63 [95% confidence interval {CI}, 0.51...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：Zanidatamab plus chemotherapy, both with and without tislelizumab, led to longer progression-free survival than trastuzumab plus chemotherapy among patients with HER2-positive advanced gastroesophageal adenocarcinoma. At this interim analysis, overall survival was longer with zanidatamab-tislelizumab-chemotherapy than with trastuzumab-chemotherapy; further...</p></div>
 </div>
-
-  </div>
+</div>
+<div class="type-sec">
+  <div class="type-hdr">Original Article</div>
+  
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Teclistamab in Multiple Myeloma with One to Three Previous Lines of Therapy</h3>
+  <div class="card-meta">
+    <span>✍ Touzeau et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2603870" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：The efficacy of teclistamab, a bispecific antibody targeting B-cell maturation antigen and CD3, as early-line monotherapy in relapsed or refractory multiple myeloma is unclear.</p><p><span class="lbl">方法</span>研究方法：We randomly assigned patients with relapsed or refractory multiple myeloma who had previously received one, two, or three lines of therapy, including an anti-CD38 monoclonal antibody and lenalidomide, to receive teclistamab or the investigator&#x27;s choice of pomalidomide, bortezomib, and dexamethasone (PVd) or carfilzomib and dexamethasone (Kd). Antimicrobial prophylaxis and immune globulin replacement were recommended. The...</p><p><span class="lbl">結果</span>主要結果：A total of 296 patients were assigned to teclistamab and 297 to PVd or Kd. At the interim analysis (median follow-up, 17.3 months), teclistamab significantly improved progression-free survival as compared with PVd or Kd (estimated 18-month progression-free survival, 69.8% vs. 26.9%; hazard ratio for disease progression or death, 0.29; 95% confidence interval [CI], 0.23 to 0.38; P&lt;0.001). The percentage of patients with a...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：Among patients with multiple myeloma and one to three previous lines of therapy, teclistamab significantly improved progression-free and overall survival as compared with PVd or Kd. Infections of grade 3 or 4 were common. (Funded by Johnson &amp; Johnson; MajesTEC-9 ClinicalTrials.gov number, NCT05572515.).</p></div>
+</div>
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">First-Line Sunvozertinib in NSCLC with EGFR Exon 20 Insertion Mutations</h3>
+  <div class="card-meta">
+    <span>✍ Zhou et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2604461" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Sunvozertinib received accelerated approval for use in later lines of therapy for patients with advanced non-small-cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 20 insertion mutations. Data are needed on the efficacy and safety of sunvozertinib as a first-line treatment for NSCLC.</p><p><span class="lbl">方法</span>研究方法：In this phase 3, international trial, we randomly assigned, in a 1:1 ratio, patients with advanced nonsquamous NSCLC with EGFR exon 20 insertions to receive sunvozertinib or chemotherapy (carboplatin-pemetrexed). The primary end point was progression-free survival as assessed by blinded independent central review. Crossover to the sunvozertinib group was allowed after disease progression was confirmed. Secondary end points...</p><p><span class="lbl">結果</span>主要結果：A total of 324 patients were randomly assigned to receive sunvozertinib (163 patients) or chemotherapy (161 patients). Treatment with sunvozertinib led to significantly longer median progression-free survival than chemotherapy (10.3 vs. 7.5 months; hazard ratio for disease progression or death, 0.65; 95% confidence interval, 0.50 to 0.85; P&lt;0.001). At 12 months, progression-free survival was reported in 46.1% of the patients...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：The efficacy of sunvozertinib was superior to that of chemotherapy as first-line treatment for advanced NSCLC with EGFR exon 20 insertions. (Funded by Dizal Pharmaceuticals; WU-KONG28 ClinicalTrials.gov number, NCT05668988.).</p></div>
+</div>
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Stem-Cell-Derived Biologic Ventricular Assist Tissue in Heart Failure</h3>
+  <div class="card-meta">
+    <span>✍ Zimmermann et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2513525" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Biologic ventricular assist tissue (BioVAT) is formulated from engineered heart muscle composed of cardiomyocytes and stromal cells derived from allogeneic induced pluripotent stem cells for cardiac remuscularization in patients with heart failure and a reduced left ventricular ejection fraction.</p><p><span class="lbl">方法</span>研究方法：We conducted an open-label, phase 1-2 study of tissue-engineered heart repair by means of BioVAT transplantation. Patients with heart failure and a left ventricular ejection fraction of 35% or less and at least one hypokinetic or dyskinetic left ventricular segment were treated with BioVAT allografts, which consisted of 5, 10, or 20 engineered-heart-muscle units. All the patients received immunosuppression. Safety was...</p><p><span class="lbl">結果</span>主要結果：A total of 20 patients were treated in the study. Three patients died during the study (1 each from vasoplegia, coronavirus disease 2019, and aortic dissection). One patient underwent heart transplantation. Immunosuppression was discontinued in 4 patients because of implantation of a left ventricular assist device (in 2 patients), renal failure (in 1 patient), and urothelial carcinoma (in 1 patient). Of the 16 patients who...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：In this interim analysis, cardiac remuscularization with BioVAT was associated with an increase in the target heart-wall thickness, left ventricular ejection fraction, and KCCQ-OSS at 3 months; all the patients had at least one adverse event. Longer-term follow-up and further clinical investigation are warranted. (Funded by the German Center for...</p></div>
+</div>
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">In Vivo Base Editing of PCSK9 with VERVE-102 for Hypercholesterolemia</h3>
+  <div class="card-meta">
+    <span>✍ Vafai et al.</span>
+    <a href="https://doi.org/10.1056/NEJMoa2601283" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Persons carrying loss-of-function variants of proprotein convertase subtilisin-kexin type 9 (PCSK9) have reduced levels of low-density lipoprotein (LDL) cholesterol and fewer atherosclerotic cardiovascular disease events than persons without such variants. VERVE-102 is an investigational base-editing therapy designed to durably inactivate PCSK9 in the liver.</p><p><span class="lbl">方法</span>研究方法：In this phase 1, open-label, single-ascending-dose study, we administered one intravenous infusion of VERVE-102 at one of six doses (ranging from 0.3 to 1.0 mg of total RNA per kilogram of body weight [mg per kilogram]) to adults with heterozygous familial hypercholesterolemia or premature coronary artery disease. VERVE-102 consists of a messenger RNA encoding an adenine base-editor protein and a guide RNA targeting PCSK9...</p><p><span class="lbl">結果</span>主要結果：A total of 35 participants across the six dose cohorts received VERVE-102 and had at least 28 days of follow-up. No dose-limiting toxic effects occurred. Mild-to-moderate infusion-related reactions and transient elevations in alanine aminotransferase levels were observed. Aspiration pneumonitis occurred in a participant with gastroesophageal reflux disease. Dose-dependent mean reductions in the PCSK9 level ranged from 51% at...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：One dose of VERVE-102 led to dose-dependent, substantial, and sustained reductions in PCSK9 and LDL cholesterol levels. (Funded by Verve Therapeutics; ClinicalTrials.gov number, NCT06164730.).</p></div>
+</div>
+</div>
 </section>
-
 <section class="journal">
   <div class="journal-hdr" style="border-left:6px solid #1E40AF;background:#EFF6FF;">
     <h2 style="color:#1E40AF;">Lancet</h2>
   </div>
-  <div class="type-sec">
-    <div class="type-hdr">RCT</div>
-
+<div class="type-sec">
+  <div class="type-hdr">RCT</div>
+  
 <div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
   <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Ticagrelor with aspirin dual antiplatelet therapy combined with intravenous thrombolysis in patients with ischaemic stroke in China (TAPIS): a multicentre, double-blind, randomised controlled trial</h3>
+  <h3 class="card-title">Sacituzumab tirumotecan plus pembrolizumab versus pembrolizumab in PD-L1-positive advanced non-small-cell lung cancer (OptiTROP-Lung05): interim analysis of a randomised, open-label, phase 3 trial</h3>
   <div class="card-meta">
-    <span>✍ Wang et al.</span>
-    <a href="https://doi.org/10.1016/S0140-6736(26)00757-9" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>缺血性腦中風接受靜脈溶栓（IV tPA）後，早期啟動雙重抗血小板治療（DAPT）在理論上可減少血栓再形成，但出血風險使其在臨床上長期備受爭議；目前尚無針對中度缺血性腦中風患者的大型隨機對照試驗。</p>
-    <p><span class="lbl">方法</span>TAPIS 試驗為雙盲安慰劑對照 RCT，在中國 60 家醫院共招募 1,382 名 NIHSS 4–10 分的缺血性腦中風患者，接受 IV 溶栓後 6 小時內隨機分派 ticagrelor + aspirin（DAPT 組）或安慰劑，ticagrelor/安慰劑持續 7 天，其後兩組均維持 aspirin 至第 90 天，主要終點為第 90 天 mRS 0–1（良好功能預後）。</p>
-    <p><span class="lbl">結果</span>90 天 mRS 0–1 達成率：DAPT 組 68.7%（474/690）vs 安慰劑組 62.0%（429/692），RR 1.11（95% CI 1.03–1.20，p = 0.0089）；症狀性顱內出血（sICH）發生率 0.9% vs 0.7%，兩組無顯著差異。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師在參與溶栓後抗血小板方案審核時，應知曉 TAPIS 試驗支持 IV 溶栓後 6 小時內啟動 ticagrelor + aspirin DAPT 可顯著改善中度缺血性腦中風的功能預後，同時出血風險未顯著增加。</p>
-  </div>
+    <span>✍ Xiong et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00968-2" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Sacituzumab tirumotecan (sac-TMT), a trophoblast cell-surface antigen 2-targeting antibody-drug conjugate, combined with programmed death 1 (PD-1) or programmed death ligand 1 (PD-L1) inhibitors, has shown promising antitumour activity as first-line therapy for non-small-cell lung cancer (NSCLC) in early-phase studies. Our aim was to evaluate the efficacy and safety of sac-TMT plus pembrolizumab as first-line treatment for...</p><p><span class="lbl">方法</span>研究方法：In this randomised, open-label, phase 3 trial (OptiTROP-Lung05) conducted across 68 hospitals in China, eligible patients had locally advanced or metastatic NSCLC without targetable genomic alterations and a PD-L1 tumour proportion score (TPS) of 1% or greater. Patients were randomly assigned (1:1) to receive sac-TMT (4 mg/kg on days 1, 15, and 29) plus pembrolizumab (400 mg fixed dose on day 1), or pembrolizumab alone...</p><p><span class="lbl">結果</span>主要結果：Between June 7, 2024, and March 27, 2025, 741 patients were screened and 413 eligible patients were randomly assigned to receive sac-TMT plus pembrolizumab (n=208) or pembrolizumab alone (n=205). At the prespecified interim analysis, conducted after a median follow-up of 10·5 months (IQR 8·7-12·5), median progression-free survival was significantly longer with sac-TMT plus pembrolizumab than with pembrolizumab alone (not...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：Among patients with PD-L1-positive advanced NSCLC without targetable genomic alterations, first-line treatment with sac-TMT plus pembrolizumab significantly prolonged progression-free survival compared with pembrolizumab alone. Therefore, sac-TMT plus pembrolizumab has the potential to redefine first-line treatment for patients with PD-L1-positive advanced...</p></div>
 </div>
-
 <div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
   <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Tirzepatide for maintenance of bodyweight reduction in people with obesity in the USA (SURMOUNT-MAINTAIN): a multicentre, double-blind, randomised, placebo-controlled trial</h3>
+  <h3 class="card-title">Tafasitamab plus lenalidomide and R-CHOP versus R-CHOP for first-line treatment of patients with high-risk diffuse large B-cell lymphoma (frontMIND): a global, phase 3, randomised, double-blind, placebo-controlled trial</h3>
   <div class="card-meta">
-    <span>✍ Horn et al.</span>
-    <a href="https://doi.org/10.1016/S0140-6736(26)00656-2" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>Tirzepatide（GLP-1/GIP 雙重受體促效劑）在肥胖症治療中顯示強效減重效果，但停藥後體重回升的問題已被前期試驗（SURMOUNT-4）揭示；如何在達到目標體重後維持療效，是臨床的重要課題。</p>
-    <p><span class="lbl">方法</span>SURMOUNT-MAINTAIN 為第 3b 期 RCT，共 441 名 BMI ≥30 kg/m²（或 ≥27 kg/m² 合併共病）的美國成人完成 60 週開放標示減重期後，再進行 52 週雙盲維持期，隨機分派至最大耐受劑量（MTD，10 或 15 mg）、降至 5 mg，或安慰劑組。</p>
-    <p><span class="lbl">結果</span>第 112 週（自基準）平均體重變化：MTD 組 −22.4%（100% 維持先期減重成果），5 mg 組 −17.0%（約 70% 維持），安慰劑組 −10.1%；MTD 與 5 mg 均顯著優於安慰劑（p &lt; 0.0001）。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師在衛教 tirzepatide 使用者時，應明確告知持續用藥的必要性，並與患者討論：若因耐受性或費用考量需減量，降至 5 mg 仍優於完全停藥，有助維持約 70% 的減重效果。</p>
-  </div>
+    <span>✍ Lenz et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00866-4" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Approximately 40% of patients with high-risk diffuse large B-cell lymphoma (DLBCL) are not cured with first-line R-CHOP (rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone or prednisolone). We aimed to investigate the addition of tafasitamab (an Fc-enhanced anti-CD19 monoclonal antibody) and lenalidomide to R-CHOP (tafa-len-R-CHOP) in patients with high-risk aggressive B-cell lymphomas.</p><p><span class="lbl">方法</span>研究方法：frontMIND is a phase 3, randomised, double-blind, placebo-controlled study conducted at 298 centres in North America, South America, Europe, and the Asia-Pacific region. Patients aged 18-80 years with previously untreated, high-intermediate-risk or high-risk DLBCL or high-grade B-cell lymphoma (HGBL) were randomly allocated (1:1), stratified by International Prognostic Index (IPI) or age-adjusted IPI and geographical region...</p><p><span class="lbl">結果</span>主要結果：Between May 11, 2021, and March 2, 2023, 1229 patients were screened, among whom 899 were randomly allocated: 448 (50%) to the tafa-len-R-CHOP group and 451 (50%) to the R-CHOP group. At the time of primary analysis (median follow-up 35·2 months [95% CI 35·0-35·4]), progression-free survival was improved in the tafa-len-R-CHOP group versus the R-CHOP group (hazard ratio [HR] 0·75 [95% CI 0·59-0·96]; p=0·0194), with 2-year...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：Progression-free survival was significantly improved with tafa-len-R-CHOP versus R-CHOP; however, the safety profile indicated increases in adverse events, including treatment-emergent adverse events leading to death, with the addition of tafasitamab and lenalidomide. Overall survival data are immature; follow-up is ongoing. Further analyses, including of...</p></div>
 </div>
-
-  </div>
+<div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
+  <span class="badge" style="background:#1D4ED8;">RCT</span>
+  <h3 class="card-title">Efficacy and safety of the CD40 ligand inhibitor dapirolizumab pegol in systemic lupus erythematosus (PHOENYCS GO): a randomised, double-blind, placebo-controlled, phase 3 trial</h3>
+  <div class="card-meta">
+    <span>✍ Clowse et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00691-4" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Dapirolizumab pegol is a novel CD40 ligand inhibitor. In this phase 3 trial, we aimed to evaluate the efficacy and safety of dapirolizumab pegol in patients with systemic lupus erythematosus (SLE).</p><p><span class="lbl">方法</span>研究方法：PHOENYCS GO was a 48-week, randomised, double-blind, placebo-controlled, phase 3 trial conducted in 177 centres (hospitals, private practices, and trial centres) in 25 countries. Patients aged 16 years or older with moderate-to-severe, active SLE despite standard-of-care medication were randomly assigned (2:1), via an interactive web response system, to intravenous dapirolizumab pegol 24 mg/kg or placebo every 4 weeks in...</p><p><span class="lbl">結果</span>主要結果：Between Aug 12, 2020, and June 8, 2023, 643 patients were screened and 321 patients were randomly assigned to dapirolizumab pegol (n=213) or placebo (n=108) plus standard of care. All randomly assigned patients received at least one dose of study medication. Six patients were excluded due to non-compliance of one site with Good Clinical Practice guidelines; therefore, the full-analysis set included 315 patients (293 female...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：Dapirolizumab pegol was associated with significant improvement in disease activity in patients with SLE. These findings support the further investigation of dapirolizumab pegol as a treatment option for SLE. FUNDING: UCB and Biogen.</p></div>
+</div>
+<div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
+  <span class="badge" style="background:#1D4ED8;">RCT</span>
+  <h3 class="card-title">Efficacy and safety of intravenous prasinezumab in individuals with early-stage Parkinson&#x27;s disease on stable symptomatic monotherapy (PADOVA): a phase 2b, multicentre, randomised, double-blind, placebo-controlled study</h3>
+  <div class="card-meta">
+    <span>✍ Nikolcheva et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00865-2" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Prasinezumab has previously shown potential for reducing the progression of motor signs (Movement Disorder Society-sponsored Revision of the Unified Parkinson&#x27;s Disease Rating Scale [MDS-UPDRS] Part III) in patients with early-stage Parkinson&#x27;s disease who were treatment-naive or receiving monoamine oxidase type B (MAO-B) inhibitors. The aim of the PADOVA trial was to evaluate the efficacy and safety of prasinezumab in a...</p><p><span class="lbl">方法</span>研究方法：This phase 2b, multicentre, double-blind, parallel-group, placebo-controlled, randomised, superiority trial recruited participants with early-stage Parkinson&#x27;s disease (age 50-85 years, 3 months to 3 years from diagnosis, Hoehn and Yahr stage 1 or 2) on stable symptomatic medication from 110 centres in nine countries in Europe and North America. Participants were individually randomly assigned (1:1) via permuted blocks...</p><p><span class="lbl">結果</span>主要結果：Between May 5, 2021, and March 22, 2023, 787 individuals were screened. 586 were enrolled and randomly assigned (n=293 per group; mean age 64·2 years [SD 7·3]; 214 [37%] female and 372 [63%] male); 550 completed double-blind treatment (prasinezumab, n=277; placebo, n=273). The primary endpoint was not met; the primary analysis showed a non-significant delay in motor progression with prasinezumab versus placebo (hazard ratio...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：Although PADOVA did not meet the primary endpoint, prespecified exploratory evidence suggests clinical activity of prasinezumab in early-stage Parkinson&#x27;s disease, supporting continued investigation in the ongoing phase 3 PARAISO trial (NCT07174310). FUNDING: F Hoffmann-La Roche.</p></div>
+</div>
+<div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
+  <span class="badge" style="background:#1D4ED8;">RCT</span>
+  <h3 class="card-title">Efficacy and safety of ocrelizumab in primary progressive multiple sclerosis, including older patients and those with more advanced disease (ORATORIO-HAND): a multicentre, double-blind, randomised, placebo-controlled, phase 3b study</h3>
+  <div class="card-meta">
+    <span>✍ Giovannoni et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00617-3" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：The ORATORIO trial showed that ocrelizumab reduced the risk of disability progression versus placebo in patients with primary progressive multiple sclerosis (PPMS). We aimed to elucidate the effect of ocrelizumab in older and more disabled patients with PPMS, particularly regarding hand function preservation.</p><p><span class="lbl">方法</span>研究方法：ORATORIO-HAND was a multicentre, double-blind, randomised, placebo-controlled, phase 3b study with 138 sites across 22 countries. Patients with PPMS aged 18-65 years and Expanded Disability Status Scale (EDSS) score of 3·0-8·0 were randomly assigned 1:1 to intravenous ocrelizumab 600 mg or placebo every 6 months for 144 weeks or until a prespecified number of progression events occurred. Masking was achieved by use of a...</p><p><span class="lbl">結果</span>主要結果：Between Aug 12, 2019, and Dec 10, 2024, of 1360 patients assessed for eligibility, 1013 were randomly assigned (ocrelizumab [n=505]; placebo [n=508]). The proportion of patients with 12W-cCDP was 165 (33%) of 505 with ocrelizumab and 205 (40%) of 508 with placebo (hazard ratio, 95% CI 0·70 0·57-0·86; relative risk reduction=30%; p=0·0007). In the MRI-active subgroup, a significant risk reduction was also observed in 12W-cCDP...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：Ocrelizumab was superior to placebo in delaying disability progression, with stronger effect on hand function, in a broad PPMS population including older patients and those with more advanced disease, while maintaining a manageable safety profile. FUNDING: F Hoffmann-La Roche.</p></div>
+</div>
+<div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
+  <span class="badge" style="background:#1D4ED8;">RCT</span>
+  <h3 class="card-title">Efficacy and safety of a bodyweight-adjusted higher dose of ocrelizumab in relapsing (MUSETTE) and primary progressive (GAVOTTE) multiple sclerosis: two multicentre, randomised, double-blind, parallel-group phase 3b trials</h3>
+  <div class="card-meta">
+    <span>✍ Hauser et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00147-9" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Ocrelizumab is a humanised anti-CD20 monoclonal antibody approved for people with relapsing (RMS) or primary progressive multiple sclerosis (PPMS). In a post-hoc analysis of phase 3 trials in RMS and PPMS using a 600 mg dose, higher exposure to ocrelizumab was associated with greater B-cell depletion and lower risk of confirmed disability progression. Here, we prospectively assessed the efficacy and safety of a high dose of...</p><p><span class="lbl">方法</span>研究方法：Two multicentre, double-blind, phase 3 controlled trials were conducted to compare high-dose ocrelizumab with the approved 600 mg dose of the drug in patients with RMS (MUSETTE) and PPMS (GAVOTTE) aged 18-56 years. MUSETTE involved 122 centres in 21 countries and GAVOTTE involved 149 centres in 22 countries. Participants were randomly assigned 2:1, with a permuted-block randomisation method, to high-dose ocrelizumab (1200 mg...</p><p><span class="lbl">結果</span>主要結果：Participants in MUSETTE were enrolled between Nov 26, 2020, and Aug 30, 2022; participants in GAVOTTE were enrolled between Dec 3, 2020, and May 15, 2023. In MUSETTE, 860 patients were randomly assigned (high-dose ocrelizumab, n=577; 600 mg ocrelizumab, n=283) and had median overall treatment duration of 184·4 weeks. In GAVOTTE, 753 patients were randomly assigned (high-dose ocrelizumab, n=500; 600 mg ocrelizumab, n=253) and...</p><p class="concl"><span class="lbl">結論</span>藥師重點：若要套用於治療決策，需確認隨機化族群、對照組、主要終點與不良事件是否符合病人條件。 原文結論指出：In both studies, high-dose ocrelizumab did not further improve control of disability progression in either RMS or PPMS, and no new safety concerns were identified. FUNDING: F Hoffmann-La Roche.</p></div>
+</div>
+</div>
+<div class="type-sec">
+  <div class="type-hdr">Original Article</div>
+  
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Comparison of [18F]flortaucipir and [18F]MK6240 for the detection of tau pathology in Alzheimer&#x27;s disease (HEAD): a multicentre, prospective, cross-sectional, within-participant study</h3>
+  <div class="card-meta">
+    <span>✍ Povala et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00417-4" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Tau PET imaging has emerged as a critical biomarker for Alzheimer&#x27;s disease, informing diagnosis, staging, and therapeutic selection. We investigated whether PET tracer selection alters tau detection.</p><p><span class="lbl">方法</span>研究方法：We conducted a prospective, multicentre, non-randomised, within-participant comparison of [18F]flortaucipir (Tauvid), currently used in clinical settings in the USA and Europe, and [18F]MK6240, an investigational tau PET tracer. Participants were recruited from eight north American sites and underwent tau PET, amyloid-β (Aβ) PET, and detailed cognitive assessments. Tau PET with both agents was acquired within a 45-day window....</p><p><span class="lbl">結果</span>主要結果：Between March 2, 2022, and Aug 27, 2025, 775 individuals were enrolled, with 682 completing all procedures (373 [55%] female, 309 [45%] male; 38 [6%] aged 19-27 years, 214 [31%] aged 50-65 years, and 430 [63%] aged 65-89 years). 32 (5%) participants identified as Hispanic or Latino. 637 (93%) identified as White, 24 (4%) as Black or African American, 16 (2%) as Asian, and five (1%) as other. In addition, 49 (7%) individuals...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：Tau PET tracer selection influences the frequency of detection of tau pathology across the ageing and Alzheimer&#x27;s disease spectrum. Compared with [18F]flortaucipir, [18F]MK6240 identified more individuals with tau pathology in cognitively unimpaired and cognitively impaired individuals, with direct implications for patient stratification in clinical trials...</p></div>
+</div>
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Alzheimer&#x27;s disease neuropathology plasma biomarkers and cognition in midlife: a community-based cohort study</h3>
+  <div class="card-meta">
+    <span>✍ Jiang et al.</span>
+    <a href="https://doi.org/10.1016/S0140-6736(26)00515-5" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Alzheimer&#x27;s disease neuropathology, characterised by amyloid β (Aβ) and phosphorylated-tau (p-tau) protein accumulation, has primarily been assessed with biomarkers in clinical samples of older adults. Less is known about plasma biomarkers of Alzheimer&#x27;s disease neuropathology and their associations with cognitive outcomes in midlife in diverse community-based samples. Our goal was to address these gaps.</p><p><span class="lbl">方法</span>研究方法：In this cohort study, we analysed participants who were retained in the US Coronary Artery Risk Development in Young Adults (CARDIA) Study with available plasma biomarkers at year 35 (2020-22). We excluded participants without cognitive measures and individuals with probable dementia. Cognition in five domains was measured with standardised tests at years 30 and 35; accelerated cognitive decline in each domain was defined as...</p><p><span class="lbl">結果</span>主要結果：From the 2248 CARDIA participants who completed the year 35 visit, we randomly selected 1500 participants for plasma biomarker measurement. We excluded three participants with poor biomarker assay quality, 143 without cognitive measures, and four with probable dementia resulting in a final cohort of 1350. The mean participant age was 61 years (SD 3·6, range 53·0-69·0); 779 (58%) participants were women, 571 (42%) were men...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：Alzheimer&#x27;s disease neuropathology is relatively uncommon in midlife but associated with worse cognitive performance and accelerated decline and might have stronger association among some groups. Early Alzheimer&#x27;s disease neuropathology detection with the use of plasma biomarkers might enable timely prevention and intervention in midlife adults including...</p></div>
+</div>
+</div>
 </section>
-
 <section class="journal">
   <div class="journal-hdr" style="border-left:6px solid #065F46;background:#F0FDF4;">
     <h2 style="color:#065F46;">JAMA</h2>
   </div>
-  <div class="type-sec">
-    <div class="type-hdr">RCT</div>
-
-<div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
-  <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Fast Antimicrobial Susceptibility Testing for Gram-Negative Bacteremia: The FAST Randomized Clinical Trial</h3>
+<div class="type-sec">
+  <div class="type-hdr">Meta-analysis</div>
+  
+<div class="card" style="border-left:4px solid #6D28D9;background:#F5F3FF;">
+  <span class="badge" style="background:#6D28D9;">Meta-analysis</span>
+  <h3 class="card-title">Adverse Effects and Treatment Discontinuation of Blood Pressure-Lowering Drugs and Combinations: A Network Meta-Analysis</h3>
   <div class="card-meta">
-    <span>✍ Banerjee et al.</span>
-    <a href="https://doi.org/10.1001/jama.2026.7886" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>革蘭氏陰性菌血症（gram-negative bacteremia）的死亡率高，及早給予適當抗生素至關重要。快速抗生素敏感性試驗（rapid AST）可在陽性血液培養後數小時內直接出具結果，理論上可縮短不適當抗生素的使用時間，但其是否改善臨床預後仍不確定。</p>
-    <p><span class="lbl">方法</span>FAST 試驗為開放標示 RCT，在希臘、印度、以色列、西班牙共 7 個醫學中心（2023 年 12 月至 2025 年 5 月），招募革蘭氏陰性菌血症患者，隨機分派接受直接從陽性血瓶執行快速表型 AST（+標準 AST）（n = 413）或標準 AST 單獨（n = 437），主要終點為 30 天 DOOR（Desirability of Outcome Ranking）。</p>
-    <p><span class="lbl">結果</span>快速 AST 組的抗生素調整時間顯著縮短，但 30 天 DOOR 主要終點與標準組相比無統計顯著差異；死亡率、住院天數及其他硬性終點均無改善（詳見原文）。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師在抗生素管理團隊（antibiotic stewardship program）推動快速 AST 採購決策時，應知悉現有證據顯示快速 AST 雖可縮短抗生素調整時間，但尚未轉化為 30 天臨床預後的顯著改善，需審慎評估其成本效益。</p>
-  </div>
+    <span>✍ Wang et al.</span>
+    <a href="https://doi.org/10.1001/jama.2026.6214" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Adverse drug effects from blood pressure (BP)-lowering drugs contribute to significant undertreatment and poor overall BP control rates.</p><p><span class="lbl">方法</span>研究方法：Treatment discontinuation due to adverse events (AEs), defined as discontinuation of randomized treatment due to an AE. Secondary outcomes included headache, dizziness, edema, and cough.</p><p><span class="lbl">結果</span>主要結果：A total of 716 trials were included, with mean (SD) follow-up of 8.6 (5) weeks, including 159 362 participants (mean [SD] age, 54.6 [7] years; 44% female; mean baseline BP, 158/100 mm Hg). Compared with placebo, treatment discontinuation due to AEs was significantly increased by CCBs (OR, 1.43 [95% CrI, 1.23-1.67]; risk difference [RD], 1.2% [95% CrI, 0.6%-2.0%]), angiotensin-converting enzyme inhibitors plus CCBs (OR, 1.46...</p><p class="concl"><span class="lbl">結論</span>藥師重點：解讀時需留意納入研究異質性、比較基準與效果量可信度，避免直接外推到不同族群。 Abstract 未提供明確結論，請查閱原文確認完整臨床意義。</p></div>
 </div>
-
-  </div>
+</div>
+<div class="type-sec">
+  <div class="type-hdr">Original Article</div>
+  
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Cancer Diagnostic Delay Rates Associated With a Population-Based Screening Trial Evaluating a Cell-Free DNA Multicancer Early Detection Test</h3>
+  <div class="card-meta">
+    <span>✍ Mann et al.</span>
+    <a href="https://doi.org/10.1001/jama.2026.6803" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Clinical trials evaluating population-based screening tests or other interventions likely to affect care delivery in real-world settings often do not consider spillover effects, such as whether the intervention rollout affects access to limited health care services.</p><p><span class="lbl">方法</span>研究方法：Cross-sectional study of all 21 cancer alliance regions in England, 8 of which participated in the population-based MCED screening trial. An event study using difference-in-differences design evaluated changes from 6 months before (April 2021) to 3 years after trial start (September 2024). EXPOSURES: Regional participation in the population-based MCED screening trial.</p><p><span class="lbl">結果</span>主要結果：Overall, 1 875 236 patient referrals for suspected head and neck, lung, or upper gastrointestinal cancers were recorded across all 21 regions. In the first 6 months of the population-based screening trial, diagnostic delay rates increased in participating regions (28.6% before trial start and 29.6% after) and decreased in nonparticipating regions (28.9% to 26.3%), an adjusted difference-in-differences estimate of 3.4...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 Abstract 未提供明確結論，請查閱原文確認完整臨床意義。</p></div>
+</div>
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Adverse Pregnancy Outcomes and Sedentary Behavior, Light-Intensity Physical Activity, and Daily Steps</h3>
+  <div class="card-meta">
+    <span>✍ Barone Gibbs et al.</span>
+    <a href="https://doi.org/10.1001/jama.2026.6986" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：Although moderate- to vigorous-intensity physical activity is recommended to reduce the risk of adverse pregnancy outcomes, associations between lower-intensity activities and adverse pregnancy outcomes are not established.</p><p><span class="lbl">方法</span>研究方法：Cohort study conducted from 2021 to 2025, involving 470 pregnant volunteers at less than 13 weeks&#x27; gestation at university-affiliated medical centers in Iowa, Pennsylvania, and West Virginia. Statistical analyses were conducted between October 2025 and April 2026. EXPOSURES: Device-based SED, LPA, and daily steps were assessed each trimester, using a thigh-worn accelerometer. Participants were separated into groups based on...</p><p><span class="lbl">結果</span>主要結果：Participants (N = 470) had a mean (SD) age of 30.7 (4.5) years and 38.3% were of high socioeconomic status; 174 (37.0%) had an adverse pregnancy outcome and 86 (18.3%) had hypertensive disorders of pregnancy. Across trimesters, participants spent the majority of time in SED (mean [SD], 10.1 [1.5] h/d), with 4.6 (1.4) h/d of LPA and 6783 (2481) daily steps. Compared with low SED (AR, 19.0%), high (AR, 42.3%; RR, 2.22 [95% CI...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 Abstract 未提供明確結論，請查閱原文確認完整臨床意義。</p></div>
+</div>
+</div>
 </section>
-
 <section class="journal">
   <div class="journal-hdr" style="border-left:6px solid #1E3A5F;background:#EFF6FF;">
     <h2 style="color:#1E3A5F;">BMJ</h2>
   </div>
-  <div class="type-sec">
-    <div class="type-hdr">RCT</div>
-
-<div class="card" style="border-left:4px solid #1D4ED8;background:#EFF6FF;">
-  <span class="badge" style="background:#1D4ED8;">RCT</span>
-  <h3 class="card-title">Prophylactic tranexamic acid for preventing severe postpartum hemorrhage in women with placenta praevia undergoing caesarean delivery: a randomised, double-blind, phase 3 trial</h3>
+<div class="type-sec">
+  <div class="type-hdr">Original Article</div>
+  
+<div class="card" style="border-left:4px solid #B45309;background:#FFFBEB;">
+  <span class="badge" style="background:#B45309;">Original Article</span>
+  <h3 class="card-title">Outcome switching in cohort studies of interventions: meta-epidemiological study</h3>
   <div class="card-meta">
-    <span>✍ Chen et al.</span>
-    <a href="https://doi.org/10.1136/bmj-2026-089636" target="_blank" class="doi-link">DOI →</a>
-  </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>前置胎盤（placenta praevia）剖宮產患者的產後出血（PPH）風險顯著高於一般孕婦，現行標準預防措施（縮宮素等）仍有局限。Tranexamic acid（TXA）已在一般產科族群顯示降低出血療效，但針對前置胎盤的高品質 RCT 數據仍不足。</p>
-    <p><span class="lbl">方法</span>本試驗為雙盲第三期 RCT，在中國 24 家產科中心招募 1,694 名計畫剖宮產的前置胎盤孕婦（2023 年 7 月至 2025 年 3 月），斷臍後 5 分鐘內靜脈注射 TXA 1 g（10 mL）或同體積生理食鹽水，所有患者均接受標準縮宮素預防，主要終點為嚴重 PPH（定義為出血量 ≥1,000 mL 或需要輸血）。</p>
-    <p><span class="lbl">結果</span>嚴重 PPH 發生率：TXA 組 29.7% vs 安慰劑組 35.1%，絕對風險降低 5.4%，NNT = 19；兩組嚴重不良事件發生率相當，未見血栓事件增加。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師應建議在前置胎盤剖宮產中將 TXA 1 g 列入預防性用藥方案，其可使嚴重 PPH 相對風險降低約 15%，且安全性可接受，NNT 為 19。</p>
-  </div>
+    <span>✍ Song et al.</span>
+    <a href="https://doi.org/10.1136/bmj-2025-087975" target="_blank" rel="noopener noreferrer" class="doi-link">DOI →</a>
+  </div><div class="card-body"><p><span class="lbl">背景</span>研究背景：To study the prevalence and characteristics of outcome switching, the completeness of outcome prespecification, and factors associated with outcome switching in observational cohort studies of interventions.</p><p><span class="lbl">方法</span>研究方法：Longitudinal meta-epidemiological study.</p><p><span class="lbl">結果</span>主要結果：Of 9965 registration records screened, 124 eligible studies with results published between 2015 and 2024 were included. Only 30 studies (24%) completely prespecified their primary outcomes. Outcome switching occurred in 60 (48%) studies, but only two provided an explanation. The most common types of switching were omission (n=32, 26%) and downgrading (n=32, 26%), followed by the introduction of new primary outcomes (n=25...</p><p class="concl"><span class="lbl">結論</span>藥師重點：可作為新證據或風險訊號的背景資料，臨床採用前仍需回到原文確認族群與限制。 原文結論指出：Outcome switching and inadequate outcome prespecification were common in cohort studies of interventions. Most changes were unexplained and favoured statistically significant results, raising concerns about potential selective reporting and highlighting the need for improved transparency in outcome reporting. STUDY REGISTRATION: Open Science Framework...</p></div>
 </div>
-
+</div>
+</section>
+<section class="journal">
+  <div class="journal-hdr" style="border-left:6px solid #DC2626;background:#FEF2F2;">
+    <h2 style="color:#991B1B;">FDA Drug Safety</h2>
   </div>
   <div class="type-sec">
-    <div class="type-hdr">Meta-analysis</div>
-
-<div class="card" style="border-left:4px solid #6D28D9;background:#F5F3FF;">
-  <span class="badge" style="background:#6D28D9;">Meta-analysis</span>
-  <h3 class="card-title">Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis</h3>
+    <div class="type-hdr">Drug Safety Alerts</div>
+    
+<div class="card" style="border-left:4px solid #DC2626;background:#FEF2F2;">
+  <span class="badge" style="background:#DC2626;">FDA</span>
+  <h3 class="card-title">FDA’s Concerns with Unapproved GLP-1 Drugs Used for Weight Loss</h3>
   <div class="card-meta">
-    <span>✍ Massé et al.</span>
-    <a href="https://doi.org/10.1136/bmj-2025-088050" target="_blank" class="doi-link">DOI →</a>
+    <span>發布：2026-06-15</span>
+    <a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss" target="_blank" rel="noopener noreferrer" class="doi-link">FDA 原文 →</a>
   </div>
-  <div class="card-body">
-    <p><span class="lbl">背景</span>鈣與維生素 D 補充製劑（calcium、vitamin D）長期被廣泛推薦作為老年人骨折與跌倒預防的一線措施，但歷年大型試驗結果不一致，需透過系統性統合分析重新評估其臨床效益。</p>
-    <p><span class="lbl">方法</span>本研究系統性文獻回顧與統合分析共納入 69 個 RCT、153,902 名老年受試者，比較鈣補充、vitamin D 補充，或二者合併使用對骨折（髖骨、椎體及任何部位）與跌倒的影響。</p>
-    <p><span class="lbl">結果</span>在一般健康老年人中，三種補充方式均未顯示具有臨床意義的骨折或跌倒預防效益；單獨使用 vitamin D 在跌倒預防方面的效益仍不明確，結果估計值精確性不足。</p>
-    <p class="concl"><span class="lbl">結論</span>藥師執行藥物整合或用藥評估時，應主動評估老年患者常規使用 calcium 或 vitamin D 補充製劑的必要性，並向患者及處方者溝通現有最佳證據不支持以骨折或跌倒預防為目的的廣泛例行補充。</p>
-  </div>
+  <div class="card-body"><p class="concl"><span class="lbl">藥師重點</span>請開啟 FDA 原文確認警訊內容、適用藥品、受影響產品與建議處置。</p></div>
 </div>
-
+<div class="card" style="border-left:4px solid #DC2626;background:#FEF2F2;">
+  <span class="badge" style="background:#DC2626;">FDA</span>
+  <h3 class="card-title">FDA alerts patients, caregivers, and health care providers of cross-compatibility issues with autoinjector devices that are optional for use with glatiramer acetate injection</h3>
+  <div class="card-meta">
+    <span>發布：詳見原文</span>
+    <a href="https://www.fda.gov/node/403159" target="_blank" rel="noopener noreferrer" class="doi-link">FDA 原文 →</a>
+  </div>
+  <div class="card-body"><p class="concl"><span class="lbl">藥師重點</span>請開啟 FDA 原文確認警訊內容、適用藥品、受影響產品與建議處置。</p></div>
+</div>
+<div class="card" style="border-left:4px solid #DC2626;background:#FEF2F2;">
+  <span class="badge" style="background:#DC2626;">FDA</span>
+  <h3 class="card-title">FDA issues final decision to withdraw approval of Pepaxto (melphalan flufenamide)</h3>
+  <div class="card-meta">
+    <span>發布：詳見原文</span>
+    <a href="https://www.fda.gov/node/398713" target="_blank" rel="noopener noreferrer" class="doi-link">FDA 原文 →</a>
+  </div>
+  <div class="card-body"><p class="concl"><span class="lbl">藥師重點</span>請開啟 FDA 原文確認警訊內容、適用藥品、受影響產品與建議處置。</p></div>
+</div>
+<div class="card" style="border-left:4px solid #DC2626;background:#FEF2F2;">
+  <span class="badge" style="background:#DC2626;">FDA</span>
+  <h3 class="card-title">FDA Accepts First In Silico Drug Development Tool Under ISTAND Program to Help Predict Drug-Induced Liver Injury</h3>
+  <div class="card-meta">
+    <span>發布：2026-06-03</span>
+    <a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fda-accepts-first-silico-drug-development-tool-under-istand-program-help-predict-drug-induced-liver" target="_blank" rel="noopener noreferrer" class="doi-link">FDA 原文 →</a>
+  </div>
+  <div class="card-body"><p class="concl"><span class="lbl">藥師重點</span>請開啟 FDA 原文確認警訊內容、適用藥品、受影響產品與建議處置。</p></div>
+</div>
   </div>
 </section>
-
 <div class="footer">
   <strong>【本週精選完畢】</strong><br><br>
   本報告由 AI 自動摘要，內容僅供參考。臨床決策請以原始文獻及藥品仿單為準。
