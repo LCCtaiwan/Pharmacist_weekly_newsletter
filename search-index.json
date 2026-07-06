@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T09:50:07.211023+08:00",
+  "generatedAt": "2026-07-06T10:12:16.120310+08:00",
   "totals": {
     "issues": 27,
     "articles": 313,
@@ -429,7 +429,7 @@
       "author": "Walter",
       "doi": "10.1016/S0140-6736(26)00604-5",
       "url": "https://doi.org/10.1016/S0140-6736(26)00604-5",
-      "summary": "藥師重點：結論顯示 [177Lu]Lu-edotreotide 可在早期治療線帶來較長 progression-free survival，且重度毒性低於 everolimus；藥師需協助安排核醫治療流程，並監測腸胃道症狀、疲倦與後續支持性用藥。",
+      "summary": "藥師重點：結論顯示 [177Lu]Lu-edotreotide 在較前段治療可帶來較長無惡化存活期，且重度毒性低於 everolimus；藥師需協助安排核醫治療流程，並監測腸胃道症狀、疲倦與血液學安全性。",
       "pubDate": "2026-07-02",
       "terms": [
         "lu-edotreotide",
@@ -446,7 +446,7 @@
       "drugTerms": [
         "somatostatin"
       ],
-      "searchText": "[177lu]lu-edotreotide versus everolimus for gastroenteropancreatic neuroendocrine tumours (compete): a phase 3, multicentre, randomised, open-label, superiority trial lancet original article walter 10.1016/s0140-6736(26)00604-5 研究背景：晚期、進展性 gastroenteropancreatic neuroendocrine tumours 的治療順序尚未明確，[177lu]lu-edotreotide 與 everolimus 皆可使用，但缺乏直接比較證據。 研究方法：compete 為 phase 3、multicentre、open-label superiority trial，將 somatostatin receptor-positive、unresectable 或 metastatic grade 1-2 gep nets 患者以 2:1 隨機分派至 [177lu]lu-edotreotide 靜脈治療（每 3 個月一次，最多 4 個 cycle）或 everolimus 10 mg/day，主要終點為 blinded independent central review 評估的 progression-free survival。 主要結果：309 名隨機分派患者中，[177lu]lu-edotreotide 組的 median progression-free survival 為 23.9 個月，everolimus 組為 14.1 個月（hr 0.67，95% ci 0.48-0.95；p=0.022）。治療相關不良事件發生率為 82% vs 97%，grade 3-4 治療相關不良事件為 18% vs 40%，兩組皆無 treatment-related death。 藥師重點：結論顯示 [177lu]lu-edotreotide 可在早期治療線帶來較長 progression-free survival，且重度毒性低於 everolimus；藥師需協助安排核醫治療流程，並監測腸胃道症狀、疲倦與後續支持性用藥。"
+      "searchText": "[177lu]lu-edotreotide versus everolimus for gastroenteropancreatic neuroendocrine tumours (compete): a phase 3, multicentre, randomised, open-label, superiority trial lancet original article walter 10.1016/s0140-6736(26)00604-5 研究背景：晚期、進展性胃腸胰神經內分泌腫瘤的治療順序尚未明確，[177lu]lu-edotreotide 與 everolimus 皆可使用，但缺乏直接比較證據。 研究方法：compete 為第三期、多中心、開放標籤優越性試驗，將 somatostatin receptor-positive、無法切除或轉移性第一至二級 gep nets 患者以 2:1 隨機分派至 [177lu]lu-edotreotide 靜脈治療（每 3 個月一次，最多 4 個療程）或 everolimus 10 mg/day，主要終點為盲態獨立中央評估的無惡化存活期。 主要結果：309 名隨機分派患者中，[177lu]lu-edotreotide 組的中位無惡化存活期為 23.9 個月，everolimus 組為 14.1 個月（hr 0.67，95% ci 0.48-0.95；p=0.022）。治療相關不良事件發生率為 82% vs 97%，3-4 級治療相關不良事件為 18% vs 40%，兩組皆無治療相關死亡。 藥師重點：結論顯示 [177lu]lu-edotreotide 在較前段治療可帶來較長無惡化存活期，且重度毒性低於 everolimus；藥師需協助安排核醫治療流程，並監測腸胃道症狀、疲倦與血液學安全性。"
     },
     {
       "id": "pmid-42386316",
@@ -464,7 +464,7 @@
       "author": "Jin",
       "doi": "10.1136/bmj-2026-319692",
       "url": "https://doi.org/10.1136/bmj-2026-319692",
-      "summary": "藥師重點：結論顯示 robotic pancreatoduodenectomy 在高量能中心可加速術後恢復，但導入時仍需評估院內量能、成本與跨團隊照護條件；藥師可聚焦疼痛控制、感染監測與術後營養支持。",
+      "summary": "藥師重點：結論顯示機器人輔助胰十二指腸切除術在高量能中心可加速術後恢復；藥師仍應留意高成本條件下的疼痛控制、感染監測、營養支持與術後恢復流程整合。",
       "pubDate": "2026-07-01",
       "terms": [
         "robotic",
@@ -479,7 +479,7 @@
         "randomised"
       ],
       "drugTerms": [],
-      "searchText": "robotic versus open pancreatoduodenectomy (portal): multicentre, single masked, phase 3, non-inferiority randomised controlled trial bmj rct jin 10.1136/bmj-2026-319692 研究背景：胰十二指腸切除術術後恢復慢且併發症負擔高，robotic pancreatoduodenectomy 是否能在不犧牲安全性與腫瘤學品質下改善恢復速度，仍需隨機試驗確認。 研究方法：此 multicentre、single-masked、phase 3 non-inferiority rct 於中國 7 家高量能中心收納 268 名可切除 pancreatic 或 periampullary 疾病成人，隨機接受 robotic pancreatoduodenectomy 或 open pancreatoduodenectomy，主要終點為術後達成功能恢復所需時間。 主要結果：modified intention-to-treat 分析中，robotic 組功能恢復 rmet 為 12.1 天，open 組為 16.0 天，差異 -3.9 天（95% ci -5.6 至 -2.2；p<0.001）；robotic 組手術時間較長，但住院天數較短，clavien-dindo grade ii 以上併發症較少，整體住院成本較高。 藥師重點：結論顯示 robotic pancreatoduodenectomy 在高量能中心可加速術後恢復，但導入時仍需評估院內量能、成本與跨團隊照護條件；藥師可聚焦疼痛控制、感染監測與術後營養支持。"
+      "searchText": "robotic versus open pancreatoduodenectomy (portal): multicentre, single masked, phase 3, non-inferiority randomised controlled trial bmj rct jin 10.1136/bmj-2026-319692 研究背景：胰十二指腸切除術術後恢復慢且併發症負擔高，機器人輔助胰十二指腸切除術是否能在不犧牲安全性與腫瘤品質下改善恢復速度，仍需隨機試驗確認。 研究方法：此多中心、單盲、第三期不劣性隨機試驗於中國 7 家高量能中心收納 268 名可切除胰臟或壺腹周邊疾病成人，隨機接受機器人輔助或開腹胰十二指腸切除術，主要終點為術後達成功能恢復所需時間。 主要結果：修正後意向治療分析中，機器人組功能恢復的限制平均事件時間為 12.1 天，開腹組為 16.0 天，差異 -3.9 天（95% ci -5.6 至 -2.2；p<0.001）；機器人組手術時間較長，但住院天數較短，clavien-dindo 第二級以上併發症較少，整體住院成本較高。 藥師重點：結論顯示機器人輔助胰十二指腸切除術在高量能中心可加速術後恢復；藥師仍應留意高成本條件下的疼痛控制、感染監測、營養支持與術後恢復流程整合。"
     },
     {
       "id": "pmid-42384870",
@@ -497,7 +497,7 @@
       "author": "Torkildsen",
       "doi": "10.1056/NEJMoa2600993",
       "url": "https://doi.org/10.1056/NEJMoa2600993",
-      "summary": "藥師重點：研究結果說明 rituximab 在抑制 MRI 疾病活動上不劣於 ocrelizumab，可作為治療選項參考；藥師仍需持續追蹤感染風險、疫苗時程、輸注相關反應與長期免疫抑制照護。",
+      "summary": "藥師重點：研究結果說明 rituximab 在抑制 MRI 疾病活動上不劣於 ocrelizumab，可作為治療選項參考；藥師仍需加強感染監測、疫苗時程安排、輸注反應處置與長期免疫抑制照護。",
       "pubDate": "2026-07-02",
       "terms": [
         "rituximab",
@@ -516,7 +516,7 @@
         "ocrelizumab",
         "anti-cd20"
       ],
-      "searchText": "rituximab versus ocrelizumab in newly diagnosed relapsing multiple sclerosis nejm rct torkildsen 10.1056/nejmoa2600993 研究背景：anti-cd20 monoclonal antibodies 已是 relapsing multiple sclerosis 的重要治療，但 rituximab 與 ocrelizumab 缺乏 head-to-head 比較資料。 研究方法：此 phase 3、multicenter、double-blind noninferiority trial 將新診斷且近期有疾病活動的 relapsing multiple sclerosis 成人，以 3:2 隨機分配至 rituximab 或 ocrelizumab，每 6 個月給藥一次、共治療 24 個月；主要終點為第 6 至 24 個月 mri 無新發或增大的 t2 lesion。 主要結果：216 名受治療患者中，rituximab 組無新發或增大 t2 lesion 的估計機率為 92.2%，ocrelizumab 組為 94.8%，風險差 -2.6 個百分點（95% ci -9.4 至 4.3），符合預設 noninferiority；兩組 relapse、失能與認知結果相近，但感染發生率 rituximab 組較高（82% vs 69%）。 藥師重點：研究結果說明 rituximab 在抑制 mri 疾病活動上不劣於 ocrelizumab，可作為治療選項參考；藥師仍需持續追蹤感染風險、疫苗時程、輸注相關反應與長期免疫抑制照護。"
+      "searchText": "rituximab versus ocrelizumab in newly diagnosed relapsing multiple sclerosis nejm rct torkildsen 10.1056/nejmoa2600993 研究背景：anti-cd20 單株抗體已是復發型多發性硬化症的重要治療，但 rituximab 與 ocrelizumab 缺乏直接比較資料。 研究方法：此第三期、多中心、雙盲不劣性試驗將新診斷且近期有疾病活動的復發型多發性硬化症成人，以 3:2 隨機分配至 rituximab 或 ocrelizumab，每 6 個月給藥一次、共治療 24 個月；主要終點為第 6 至 24 個月 mri 無新發或增大的 t2 病灶。 主要結果：216 名受治療患者中，rituximab 組無新發或增大 t2 病灶的估計機率為 92.2%，ocrelizumab 組為 94.8%，風險差 -2.6 個百分點（95% ci -9.4 至 4.3），符合預設不劣性；兩組復發、失能與認知結果相近，但 rituximab 組感染發生率較高（82% vs 69%）。 藥師重點：研究結果說明 rituximab 在抑制 mri 疾病活動上不劣於 ocrelizumab，可作為治療選項參考；藥師仍需加強感染監測、疫苗時程安排、輸注反應處置與長期免疫抑制照護。"
     },
     {
       "id": "pmid-42370681",
@@ -534,7 +534,7 @@
       "author": "Savarirayan",
       "doi": "10.1056/NEJMoa2604565",
       "url": "https://doi.org/10.1056/NEJMoa2604565",
-      "summary": "藥師重點：結論顯示每日口服 infigratinib 可改善 achondroplasia 兒童生長速度；藥師應留意體重劑量、長期成長指標、不良事件與兒科家庭的用藥依從性。",
+      "summary": "藥師重點：結論顯示每日口服 infigratinib 可改善軟骨發育不全兒童的生長速度；藥師應留意體重劑量、長期成長指標、用藥依從性與兒科家庭衛教。",
       "pubDate": "2026-06-28",
       "terms": [
         "phase",
@@ -551,7 +551,7 @@
       "drugTerms": [
         "infigratinib"
       ],
-      "searchText": "phase 3 trial of oral infigratinib in children with achondroplasia nejm original article savarirayan 10.1056/nejmoa2604565 研究背景：achondroplasia 由 fgfr3 pathogenic variants 所致，會影響骨骼生長；infigratinib 是口服 fgfr1-3 tyrosine kinase 抑制劑，可下調 achondroplasia 致病路徑。 研究方法：研究為 phase 3、多中心、雙盲、安慰劑對照試驗，將 3-17 歲 achondroplasia 兒童以 2:1 隨機分派至 infigratinib 0.25 mg/kg 每日一次或 placebo，治療 52 週。主要終點為第 52 週 annualized height velocity 相對基線變化；次要終點包括 height z score 與 upper-to-lower body segment ratio。 主要結果：114 名患者隨機分派；第 52 週 infigratinib 相對 placebo 的 least-squares mean 差異在 annualized height velocity 為 1.74 cm/year（95% ci 1.31-2.17；p<0.001），height z score 差異為 0.32（96% ci 0.23-0.41；p<0.001）。兩組整體不良事件發生率相近，且無被認定與治療相關的嚴重不良事件或停藥事件。 藥師重點：結論顯示每日口服 infigratinib 可改善 achondroplasia 兒童生長速度；藥師應留意體重劑量、長期成長指標、不良事件與兒科家庭的用藥依從性。"
+      "searchText": "phase 3 trial of oral infigratinib in children with achondroplasia nejm original article savarirayan 10.1056/nejmoa2604565 研究背景：軟骨發育不全由 fgfr3 pathogenic variants 所致，會影響骨骼生長；infigratinib 是口服 fgfr1-3 tyrosine kinase 抑制劑，可下調其致病路徑。 研究方法：研究為第三期、多中心、雙盲、安慰劑對照試驗，將 3-17 歲軟骨發育不全兒童以 2:1 隨機分派至 infigratinib 0.25 mg/kg 每日一次或 placebo，治療 52 週。主要終點為第 52 週年化身高生長速度相對基線變化；次要終點包括身高 z 分數與上下身比例。 主要結果：114 名患者隨機分派；第 52 週 infigratinib 相對 placebo 的最小平方平均差異在年化身高生長速度為 1.74 cm/year（95% ci 1.31-2.17；p<0.001），身高 z 分數差異為 0.32（96% ci 0.23-0.41；p<0.001）。兩組整體不良事件發生率相近，且無被認定與治療相關的嚴重不良事件或停藥事件。 藥師重點：結論顯示每日口服 infigratinib 可改善軟骨發育不全兒童的生長速度；藥師應留意體重劑量、長期成長指標、用藥依從性與兒科家庭衛教。"
     },
     {
       "id": "pmid-42384373",
@@ -569,7 +569,7 @@
       "author": "Miller",
       "doi": "10.1001/jama.2026.8568",
       "url": "https://doi.org/10.1001/jama.2026.8568",
-      "summary": "藥師重點：此策略可望減輕致命性 pulmonary hypoplasia，但新生兒後續腎臟相關 morbidity 仍高；藥師參與周產期與兒腎照護時，需及早準備 dialysis、感染預防與 transplant 前後用藥教育。",
+      "summary": "藥師重點：此策略可望減輕致命性肺發育不全，但新生兒後續腎臟併發症與照護負擔仍高；藥師參與周產期與兒腎照護時，需及早準備透析、感染預防與移植前後用藥教育。",
       "pubDate": "2026-07-01",
       "terms": [
         "neonatal",
@@ -584,7 +584,7 @@
         "jama"
       ],
       "drugTerms": [],
-      "searchText": "neonatal survival after serial amnioinfusions for anhydramnios due to fetal kidney failure: the raft clinical trial jama original article miller 10.1001/jama.2026.8568 研究背景：fetal kidney failure 導致的 anhydramnios 常因嚴重 pulmonary hypoplasia 而致死，serial amnioinfusions 雖可能改善肺部發育，但對非 bilateral renal agenesis 病例的效益與風險仍不確定。 研究方法：raft 為 prospective、nonrandomized clinical trial，於美國 13 家 fetal therapy centers 收納 32 對在 22 週前即出現 anhydramnios、且非 bilateral renal agenesis 的 maternal-fetal pairs，於 26 週前開始進行 serial amnioinfusions。主要終點為新生兒存活至少 14 天且成功建立 dialysis access。 主要結果：32 例中有 29 例活產（91%），主要終點達成率為 65.5%（95% ci 45.7%-82.1%）；14 名活產嬰兒（48%）存活至出院。常見母體併發症為 preterm prelabor rupture of membranes 56% 與 chorioamniotic separation 29%，目前存活嬰兒中已有 7 人接受 kidney transplant。 藥師重點：此策略可望減輕致命性 pulmonary hypoplasia，但新生兒後續腎臟相關 morbidity 仍高；藥師參與周產期與兒腎照護時，需及早準備 dialysis、感染預防與 transplant 前後用藥教育。"
+      "searchText": "neonatal survival after serial amnioinfusions for anhydramnios due to fetal kidney failure: the raft clinical trial jama original article miller 10.1001/jama.2026.8568 研究背景：胎兒腎衰竭導致的無羊水常因嚴重肺發育不全而致死，連續羊膜腔灌注雖可能改善肺部發育，但對非雙側腎缺如病例的效益與風險仍不確定。 研究方法：raft 為前瞻性、非隨機臨床試驗，於美國 13 家胎兒治療中心收納 32 對在 22 週前即出現無羊水、且非雙側腎缺如的母胎個案，於 26 週前開始進行連續羊膜腔灌注。主要終點為新生兒存活至少 14 天且成功建立透析通路。 主要結果：32 例中有 29 例活產（91%），主要終點達成率為 65.5%（95% ci 45.7%-82.1%）；14 名活產嬰兒（48%）存活至出院。常見母體併發症為早發性破水 56% 與絨毛膜羊膜分離 29%，目前存活嬰兒中已有 7 人接受腎臟移植。 藥師重點：此策略可望減輕致命性肺發育不全，但新生兒後續腎臟併發症與照護負擔仍高；藥師參與周產期與兒腎照護時，需及早準備透析、感染預防與移植前後用藥教育。"
     },
     {
       "id": "pmid-42385750",
@@ -602,7 +602,7 @@
       "author": "N/A",
       "doi": "10.1016/S0140-6736(26)00758-0",
       "url": "https://doi.org/10.1016/S0140-6736(26)00758-0",
-      "summary": "藥師重點：研究結果說明較年長 obesity 患者的代謝風險差距部分可透過藥物治療縮小，但年輕族群仍是照護缺口；藥師可強化早期篩檢、生活型態介入與慢性處方追蹤。",
+      "summary": "藥師重點：研究結果說明較年長肥胖患者的代謝風險差距部分可透過藥物治療縮小，但年輕族群仍是照護缺口；藥師可強化早期篩檢、生活型態介入與慢性處方追蹤。",
       "pubDate": "2026-07-01",
       "terms": [
         "metabolic",
@@ -617,7 +617,7 @@
         "studies"
       ],
       "drugTerms": [],
-      "searchText": "metabolic traits in obesity and normal bmi in industrialised countries: a multi-country analysis of national population-based studies lancet original article  10.1016/s0140-6736(26)00758-0 研究背景：obesity 相關的高血壓與血脂異常已有治療工具，但 bmi 所帶來的代謝風險差距是否因藥物治療擴大而縮小，仍需跨國資料檢視。 研究方法：此 multi-country population analysis 納入 1990 至 2024 年間 110 個國家代表性健康調查，共 978425 名 20-79 歲受試者，來自日本、南韓、台灣、泰國、芬蘭、英國與美國，比較不同 bmi 組別的 systolic blood pressure、non-hdl cholesterol、hdl cholesterol 與降壓、降脂藥使用情形。 主要結果：跨國合併分析顯示，與 normal bmi 的差距在肥胖或過重族群中逐十年縮小，non-hdl cholesterol 約下降 0.05-0.07 mmol/l，systolic blood pressure 約下降 0.6-0.7 mmhg；40 歲以上肥胖者降壓與降脂藥使用增加較多，部分國家已與 normal bmi 族群代謝指標接近，但 40 歲以下肥胖年輕成人的風險差距變化不大且治療率低。 藥師重點：研究結果說明較年長 obesity 患者的代謝風險差距部分可透過藥物治療縮小，但年輕族群仍是照護缺口；藥師可強化早期篩檢、生活型態介入與慢性處方追蹤。"
+      "searchText": "metabolic traits in obesity and normal bmi in industrialised countries: a multi-country analysis of national population-based studies lancet original article  10.1016/s0140-6736(26)00758-0 研究背景：肥胖相關的高血壓與血脂異常已有治療工具，但 bmi 所帶來的代謝風險差距是否因藥物治療而縮小，仍需跨國資料檢視。 研究方法：此跨國人口研究分析納入 1990 至 2024 年間 110 個國家代表性健康調查，共 978425 名 20-79 歲受試者，來自日本、南韓、台灣、泰國、芬蘭、英國與美國，比較不同 bmi 組別的收縮壓、non-hdl cholesterol、hdl cholesterol 與降壓、降脂藥使用情形。 主要結果：跨國合併分析顯示，肥胖或過重族群與 bmi 正常範圍的差距逐十年縮小，non-hdl cholesterol 約下降 0.05-0.07 mmol/l，收縮壓約下降 0.6-0.7 mmhg；40 歲以上肥胖者降壓與降脂藥使用增加較多，部分國家已與 bmi 正常族群代謝指標接近，但 40 歲以下肥胖年輕成人的風險差距變化不大且治療率低。 藥師重點：研究結果說明較年長肥胖患者的代謝風險差距部分可透過藥物治療縮小，但年輕族群仍是照護缺口；藥師可強化早期篩檢、生活型態介入與慢性處方追蹤。"
     },
     {
       "id": "pmid-42392114",
@@ -635,7 +635,7 @@
       "author": "Hailer",
       "doi": "10.1016/S0140-6736(26)00759-2",
       "url": "https://doi.org/10.1016/S0140-6736(26)00759-2",
-      "summary": "藥師重點：研究結果說明 dual mobility THR 可明顯降低位移性 femoral neck fracture 術後脫位風險；藥師於高齡骨折照護中仍應持續介入止痛、抗凝、跌倒預防與出院後用藥整合。",
+      "summary": "藥師重點：研究結果說明 dual mobility THR 可明顯降低位移性股骨頸骨折術後脫位風險；藥師於高齡骨折照護中仍應持續介入止痛、抗凝、跌倒預防與出院後用藥整合。",
       "pubDate": "2026-07-02",
       "terms": [
         "dual",
@@ -650,7 +650,7 @@
         "fractures"
       ],
       "drugTerms": [],
-      "searchText": "dual mobility versus standard cups in total hip replacement for displaced femoral neck fractures (duality): an international, multicentre, randomised, controlled, superiority trial lancet original article hailer 10.1016/s0140-6736(26)00759-2 研究背景：位移性 femoral neck fracture 接受 total hip replacement 後，dislocation 是最常見的早期手術併發症；dual mobility cup 是否能降低此風險，過去缺乏隨機試驗證據。 研究方法：duality 為 international、multicentre、registry-based randomised superiority trial，於瑞典與英國 44 家醫院收納 65 歲以上、適合 total hip replacement 的位移性 femoral neck fracture 患者，1:1 隨機分派至 dual mobility thr 或 standard thr。主要終點為 1 年內 index joint dislocation。 主要結果：1600 名患者隨機分派後，1566 名納入 modified intention-to-treat 分析；dual mobility 組 dislocation 發生率為 1.3%，standard thr 組為 4.2%，adjusted hr 0.27（95% ci 0.13-0.56；p<0.0001）。 藥師重點：研究結果說明 dual mobility thr 可明顯降低位移性 femoral neck fracture 術後脫位風險；藥師於高齡骨折照護中仍應持續介入止痛、抗凝、跌倒預防與出院後用藥整合。"
+      "searchText": "dual mobility versus standard cups in total hip replacement for displaced femoral neck fractures (duality): an international, multicentre, randomised, controlled, superiority trial lancet original article hailer 10.1016/s0140-6736(26)00759-2 研究背景：位移性股骨頸骨折接受全髖關節置換術後，脫位是最常見的早期手術併發症；雙活動度髖杯是否能降低此風險，過去缺乏隨機試驗證據。 研究方法：duality 為國際、多中心、登錄型隨機優越性試驗，於瑞典與英國 44 家醫院收納 65 歲以上、適合全髖關節置換術的位移性股骨頸骨折患者，1:1 隨機分派至 dual mobility thr 或 standard thr。主要終點為 1 年內目標關節脫位。 主要結果：1600 名患者隨機分派後，1566 名納入修正後意向治療分析；dual mobility 組脫位發生率為 1.3%，standard thr 組為 4.2%，adjusted hr 0.27（95% ci 0.13-0.56；p<0.0001）。 藥師重點：研究結果說明 dual mobility thr 可明顯降低位移性股骨頸骨折術後脫位風險；藥師於高齡骨折照護中仍應持續介入止痛、抗凝、跌倒預防與出院後用藥整合。"
     },
     {
       "id": "pmid-42384869",
@@ -668,7 +668,7 @@
       "author": "Choueiri",
       "doi": "10.1056/NEJMoa2518245",
       "url": "https://doi.org/10.1056/NEJMoa2518245",
-      "summary": "藥師重點：結論顯示 pembrolizumab 加上 belzutifan 可提升高復發風險族群的 disease-free survival，但毒性明顯增加；藥師需協助評估效益與安全性平衡，並加強嚴重不良事件與口服治療依從性監測。",
+      "summary": "藥師重點：結論顯示 pembrolizumab 合併 belzutifan 可提升高復發風險族群的無病存活期，但毒性明顯增加；藥師應加強貧血、缺氧等 belzutifan 相關安全性監測，並追蹤口服治療依從性與嚴重不良事件。",
       "pubDate": "2026-07-02",
       "terms": [
         "adjuvant",
@@ -680,12 +680,12 @@
         "nejm",
         "choueiri",
         "nejmoa2518245",
-        "clear-cell"
+        "placebo"
       ],
       "drugTerms": [
         "pembrolizumab"
       ],
-      "searchText": "adjuvant pembrolizumab plus belzutifan for renal-cell carcinoma nejm rct choueiri 10.1056/nejmoa2518245 研究背景：接受腎切除後的 clear-cell renal-cell carcinoma 患者仍有復發風險，adjuvant pembrolizumab 已能改善預後，合併 belzutifan 是否可進一步降低復發值得評估。 研究方法：此 phase 3、double-blind trial 將復發高風險的 clear-cell renal-cell carcinoma 患者 1:1 隨機分配至 pembrolizumab 400 mg every 6 weeks 合併 belzutifan 120 mg daily，或 pembrolizumab 合併 placebo，治療最長 1 年；主要終點為 investigator-assessed disease-free survival。 主要結果：1841 名受試者隨機分派後，中位追蹤 28.4 個月；pembrolizumab-belzutifan 組 disease-free survival 較佳（復發或死亡 hr 0.72，95% ci 0.59-0.87；p<0.001），24 個月 disease-free survival 為 80.7% vs 73.7%。整體存活未達顯著差異，但 grade 3 以上不良事件在合併 belzutifan 組較高（52.1% vs 30.2%）。 藥師重點：結論顯示 pembrolizumab 加上 belzutifan 可提升高復發風險族群的 disease-free survival，但毒性明顯增加；藥師需協助評估效益與安全性平衡，並加強嚴重不良事件與口服治療依從性監測。"
+      "searchText": "adjuvant pembrolizumab plus belzutifan for renal-cell carcinoma nejm rct choueiri 10.1056/nejmoa2518245 研究背景：接受腎切除後的透明細胞型腎細胞癌患者仍有復發風險，術後輔助 pembrolizumab 已能改善預後，合併 belzutifan 是否可進一步降低復發值得評估。 研究方法：此第三期、雙盲試驗將復發高風險的透明細胞型腎細胞癌患者 1:1 隨機分配至 pembrolizumab 400 mg 每 6 週一次合併 belzutifan 120 mg 每日一次，或 pembrolizumab 合併 placebo，治療最長 1 年；主要終點為研究者評估的無病存活期。 主要結果：1841 名受試者隨機分派後，中位追蹤 28.4 個月；pembrolizumab-belzutifan 組無病存活期較佳（復發或死亡 hr 0.72，95% ci 0.59-0.87；p<0.001），24 個月無病存活率為 80.7% vs 73.7%。整體存活未達顯著差異，但 3 級以上不良事件在合併 belzutifan 組較高（52.1% vs 30.2%）。 藥師重點：結論顯示 pembrolizumab 合併 belzutifan 可提升高復發風險族群的無病存活期，但毒性明顯增加；藥師應加強貧血、缺氧等 belzutifan 相關安全性監測，並追蹤口服治療依從性與嚴重不良事件。"
     },
     {
       "id": "fda-2026-week27-3",
